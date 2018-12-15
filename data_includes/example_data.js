@@ -28,7 +28,7 @@ var items = [ ["sep", "Separator", { }],
 
           ["intro", "Form", {continueMessage: "Pro vstup do experimentu, klikněte zde", html: { include: "example_intro.html" }}],
 
-          ["practice", aj, {s: {html: "<div style=\"text-align: center\";\"width: 30em;\"><img src=\"https://raw.githubusercontent.com/MojmirDocekal/jan_2019_exp_ibex_bv/master/dancers_1.png?raw=true\" width: 200px></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku je více klíčů než kaštanů.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 1}],
+          ["practice", aj, {s: {html: "<div style=\"text-align: center\";\"width: 30em;\"><img src=\"https://github.com/MojmirDocekal/jan_2019_exp_ibex_bv/blob/master/1537560885.svg?raw=true\" width: 200px></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku je více klíčů než kaštanů.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 1}],
 ["practice", aj, {s: {html: "<div style=\"text-align: center\; \"width: 30em;\"><img src=\"https://raw.githubusercontent.com/MojmirDocekal/jan_2019_exp_ibex_bv/master/dancers_1.png?raw=true\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku je stejný počet klíčů jako kaštanů.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 0}],
 ["practice", aj, {s: {html: "<div style=\"text-align: center\; \"width: 30em;\"><img src=\"https://raw.githubusercontent.com/MojmirDocekal/jan_2019_exp_ibex_bv/master/dancers_1.png?raw=true\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku je třikrát tolik kaštanů jako klíčů.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 0}],
 
