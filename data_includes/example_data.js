@@ -10,10 +10,10 @@ var completionMessage = "[Zadané odpovědi jsou odeslány na server. Děkujeme 
 
 var ms = "Message";
 
-var defaults = [    
+var defaults = [
     "Separator", { transfer: 800,
                    normalMessage: "Počkejte prosím na další položku v experimentu.",
-                   errorMessage: "Špatně. Počkejte prosím na další položku v experimentu." 
+                   errorMessage: "Špatně. Počkejte prosím na další položku v experimentu."
          },
     "AcceptabilityJudgment", { as: [["a", "Ano"], ["n", "Ne"]],
                                randomOrder: false,
@@ -28,7 +28,7 @@ var items = [ ["sep", "Separator", { }],
 
           ["intro", "Form", {continueMessage: "Pro vstup do experimentu, klikněte zde", html: { include: "example_intro.html" }}],
 
-          ["practice", aj, {s: {html: "<div style=\"text-align: center\";\"width: 30em;\"><img src=\"https://github.com/MojmirDocekal/jan_2019_brn_vie/blob/master/boys_girls.png?raw=true\" </div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku mluví tři dívky se dvěma chlapci.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 0}],
+          ["practice", aj, {s: {html: "<div style=\"text-align: center\";\"width: 30em;\"><img src=\"https://github.com/MojmirDocekal/jan_2019_brn_vie/blob/master/boys_girls.png?raw=true\" </div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku mluví tři dívky se dvěma chlapci.Update.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 0}],
 ["practice", aj, {s: {html: "<div style=\"text-align: center\; \"width: 30em;\"><img src=\"https://raw.githubusercontent.com/MojmirDocekal/jan_2019_exp_ibex_bv/master/dancers_1.png?raw=true\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku tančí každá žena s jedním mužem.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 1}],
 ["practice", aj, {s: {html: "<div style=\"text-align: center\; \"width: 30em;\"><img src=\"https://github.com/MojmirDocekal/jan_2019_brn_vie/blob/master/girls_flowers.png?raw=true\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku se každá ze dvou dívek dívá pouze na jednu květinu.</font></p><i>Je věta pravdivá?</i></div>"}, hasCorrect: 1}],
 
@@ -42,7 +42,7 @@ var items = [ ["sep", "Separator", { }],
 [["exp-item3-overlap-skupiny", 3], aj, {s: {html: "<div style=\"text-align: center\;\"width: 40em;\"><img src=\"http://www.jakubdotlacil.com/cl-brno/A_dvoje/hranolky-overlap.png\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">V horních rozích jsou dvě skupiny hranolků.</font></p><i>Je věta pravdivá?</i></div>"}}],
     [["exp-item3-spread-dvoje", 3], aj, {s: {html: "<div style=\"text-align: center\;\"width: 40em;\"><img src=\"http://www.jakubdotlacil.com/cl-brno/A_dvoje/hranolky-spread.png\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Podél levého a pravého okraje jsou dvoje hranolky.</font></p><i>Je věta pravdivá?</i></div>"}}],
     [["exp-item3-spread-skupiny", 3], aj, {s: {html: "<div style=\"text-align: center\;\"width: 40em;\"><img src=\"http://www.jakubdotlacil.com/cl-brno/A_dvoje/hranolky-spread.png\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Podél levého a pravého okraje jsou dvě skupiny hranolků.</font></p><i>Je věta pravdivá?</i></div>"}}],
-    
+
 ["filler1", aj, {s: {html: "<div style=\"text-align: center\;\"width: 40em;\"><img src=\"http://www.jakubdotlacil.com/cl-brno/A_dvoje/filler_A.png\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Na obrázku je nejvíc klíčů.</font></p><i>Je věta pravdivá?</i></div>"}}],
 ["filler2", aj, {s: {html: "<div style=\"text-align: center\;\"width: 40em;\"><img src=\"http://www.jakubdotlacil.com/cl-brno/A_dvoje/filler_A.png\"></div><div style=\"text-align: center\"; font-size=\"+3\"><p><font size=\"+2\">Všechny objekty na obrázku jsou karty.</font></p><i>Je věta pravdivá?</i></div>"}}],
 
