@@ -15,12 +15,12 @@ var defaults = [
                    normalMessage: "Počkejte prosím na další položku v experimentu.",
                    errorMessage: "Špatně. Počkejte prosím na další položku v experimentu."
          },
-    "AcceptabilityJudgment", { as: ["levý obrázek", "pravý obrázek"],
+    "AcceptabilityJudgment", { as: ["levý", "pravý"],
                               presentAsScale: true,
                               leftComment: "(věta v kontextu odpovídá levému obrázku)",
                               rightComment: "(věta v kontextu odpovídá pravému obrázku)",
                                randomOrder: false,
-                               showNumbers: false,
+                               showNumbers: true,
                                },
     "Message", { hideProgressBar: true, transfer: "click" }
 ];
