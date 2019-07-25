@@ -15,8 +15,8 @@ var defaults = [
                    normalMessage: "Počkejte prosím na další položku v experimentu.",
                    errorMessage: "Špatně. Počkejte prosím na další položku v experimentu."
          },
-    "AcceptabilityJudgment", { as: ["levý", "false"],
-                              presentAsScale: true,
+    "AcceptabilityJudgment", { as: ["levý", "pravý"],
+                              presentAsScale: false,
                               leftComment: "(věta v kontextu odpovídá levému obrázku)",
                               rightComment: "(věta v kontextu odpovídá pravému obrázku)",
                                randomOrder: false,
