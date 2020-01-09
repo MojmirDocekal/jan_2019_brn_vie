@@ -17,6 +17,7 @@ var defaults = [
          },
     "AcceptabilityJudgment", { as: ["levý", "ani jeden", "pravý"],
                               presentAsScale: false,
+                              presentHorizontally: true,
                               leftComment: "(věta v kontextu odpovídá levému obrázku)",
                               rightComment: "(věta v kontextu odpovídá pravému obrázku)",
                                randomOrder: false,
